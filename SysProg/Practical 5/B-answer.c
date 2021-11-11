@@ -33,8 +33,8 @@ struct triangle** subdivide(int depth, struct triangle* tri) {
         newPoint.x =  (tri->A.x + tri->B.x) / 2;
         newPoint.y =  (tri->A.y + tri->B.y) / 2;
         newPoint.z = tri->A.z; // only works as all triangles lie in the same z plane
-        // newPoint->x is equivalent to (*newPoint).x, i.e. it gets the member called x 
-        // from the struct that newPoint points to.
+        // tri->x is equivalent to (*try).x, i.e. it gets the member called x 
+        // from the struct that tri points to.
         
         // Create the first new triangle (A, newpoint, C)
         struct triangle *first = malloc(sizeof(struct triangle));
