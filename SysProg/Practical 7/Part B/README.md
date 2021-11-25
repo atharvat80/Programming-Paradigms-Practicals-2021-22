@@ -1,0 +1,1 @@
+For instructions on how to create and link static libraries see https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/GCC/create-libraries/index
