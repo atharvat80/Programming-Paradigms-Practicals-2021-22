@@ -20,3 +20,4 @@ treeGen xs = top ++ treeGen top
 
 pythagoreanTriples :: [(Int, Int, Int)]
 pythagoreanTriples = pythTriple [2,1] : map pythTriple (treeGen [[2,1]])
+

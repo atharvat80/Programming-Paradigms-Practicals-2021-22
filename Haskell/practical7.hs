@@ -82,3 +82,4 @@ rewrite qExpr = rewrite' qExpr []
 
 satQuantified :: QuantifiedExpr -> Maybe Bindings
 satQuantified = sat . rewrite
+
